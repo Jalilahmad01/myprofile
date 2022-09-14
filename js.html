@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first JavaScript</title>
+</head>
+<body>
+   <h2>JavaScript statements</h2>
+   <p id="demo"></p>
+   <script>
+    let x, y, z; // statement1 separated semicolons
+    x= 34;       // statement2
+    y = 6;       // statement3
+    z = x + y;   // statement4
+    document.getElementById("demo").innerHTML = z;
+   </script>
+
+   <p id="demo1"></p>
+   <script>
+    let a, b, c; // multiple statements
+    a = 5; b = 8; c = a + b;
+    document.getElementById("demo1").innerHTML = c;
+   </script>
+
+    <p id="demo2"></p>
+   <script>
+    document.getElementById("demo2").innerHTML = //"Hello World";
+    "Hello World";
+   </script>
+
+   <button type="button" onclick="myFunction()">Click Me</button>
+   <p id="demo3"></p>
+   <script>
+    function myFunction() {
+    document.getElementById("demo3").innerHTML = "How are you";
+    }
+   </script>
+
+   <p id="demo4"></p>
+   <script>
+    document.getElementById("demo4").innerHTML = "jalil" + " " + "ahmad";
+   </script>
+
+   <p id="demo5"></p>
+   <script>
+    const pi = 3.14;
+    const personName = "john doe";
+     let answer = 'i am yes';
+     document.getElementById("demo5").innerHTML = pi + "<br>" + personName + "<br>" + answer;
+   </script>
+
+   <p id="demo6"></p>
+   <script>
+    let person1 = "jameer khan", carName = "volvo", price = "2330";
+    document.getElementById("demo6").innerHTML = person1 + "<br>" + carName + "<br>" + price;
+   </script>
+
+   <p id="demo7"></p>
+   <script>
+    let d = "jalil" + " " + "ahmad";
+    document.getElementById("demo7").innerHTML = d;
+   </script>
+
+   <p id="demo8"></p>
+   <script>
+    let e = "2" + 4 + 6; //concatenated
+    document.getElementById("demo8").innerHTML = e;
+   </script>
+</body>
+</html>
